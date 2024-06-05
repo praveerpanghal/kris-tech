@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+
+
+import "./plugins/bootstrap/bootstrap.min.css"
+
+import "./plugins/Ionicons/css/ionicons.min.css"
+
+import "./plugins/animate-css/animate.css"
+
+import "./plugins/magnific-popup/magnific-popup.css"
+
+import "./plugins/slick/slick.css"
+// import "./scss/style.scss"
+import Header from './components/header/header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Kris Technology
+      <Header />
     </div>
   );
 }
