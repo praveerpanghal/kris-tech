@@ -7,15 +7,16 @@ import "./plugins/slick/slick.css";
 import "./scss/style.scss"
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/header/header';
-import Slider from './components/slider/slider';
+
+import Home from './components/home/home';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
-        <Slider/>
+       
+        <Home/>
+       
         <Routes>
           <Route path="/" exact component={Home} />
           <Route path="/portfolio" component={Portfolio} />
@@ -40,7 +41,7 @@ function App() {
   );
 }
 // Define your components for each route here or import them
-const Home = () => <div>Home Page</div>;
+//const Home = () => <div>Home Page</div>;
 const Portfolio = () => <div>Portfolio Page</div>;
 const PortfolioSingle = () => <div>Portfolio Single Page</div>;
 const Submenu01 = () => <div>Submenu 01</div>;
