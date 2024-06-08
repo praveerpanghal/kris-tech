@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Feature = () => {
+const Portfolio = () => {
   return (
     <section className="feature bg-2">
       <div className="container">
@@ -28,4 +28,4 @@ const Feature = () => {
   );
 };
 
-export default Feature;
+export default Portfolio;

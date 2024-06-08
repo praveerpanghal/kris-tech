@@ -9,6 +9,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './components/home/home';
+//import Portfolio from "./components/portfolio/portfolio";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
        
         <Routes>
           <Route path="/" exact component={Home} />
-          <Route path="/portfolio" component={Portfolio} />
+          {/* <Route path="/portfolio" component={Portfolio} /> */}
           <Route path="/portfolio-single" component={PortfolioSingle} />
           <Route path="/submenu01" component={Submenu01} />
           <Route path="/submenu02" component={Submenu02} />
@@ -42,7 +43,7 @@ function App() {
 }
 // Define your components for each route here or import them
 //const Home = () => <div>Home Page</div>;
-const Portfolio = () => <div>Portfolio Page</div>;
+//const Portfolio = () => <div>Portfolio Page</div>;
 const PortfolioSingle = () => <div>Portfolio Single Page</div>;
 const Submenu01 = () => <div>Submenu 01</div>;
 const Submenu02 = () => <div>Submenu 02</div>;
