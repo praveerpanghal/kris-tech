@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./header.scss";
 
 const Header = () => {
     return (
@@ -8,8 +9,8 @@ const Header = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <nav className="navbar navbar-expand-lg p-0">
-                            <Link className="navbar-brand" to="/">
-                                <img src="images/logo.png" alt="Logo" />
+                            <Link className="navbar-brand" to="/home">
+                                <img src="images/kris-log-min.png" alt="Logo" className="header-logo" />
                             </Link>
 
                             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
