@@ -16,26 +16,26 @@ function App() {
     <div className="App">
       <Router>
        
-        <Home/>
+        {/* <Home/> */}
        
         <Routes>
-          <Route path="/" exact component={Home} />
-          <Route path="/portfolio" component={PortfolioMain} />
-          <Route path="/portfolio-single" component={PortfolioSingle} />
-          <Route path="/submenu01" component={Submenu01} />
-          <Route path="/submenu02" component={Submenu02} />
-          <Route path="/service" component={Service} />
-          <Route path="/blog-grid" component={BlogGrid} />
-          <Route path="/blog-single" component={BlogSingle} />
-          <Route path="/blog-right-sidebar" component={BlogRightSidebar} />
-          <Route path="/blog-left-sidebar" component={BlogLeftSidebar} />
-          <Route path="/blog-full-width" component={BlogFullWidth} />
-          <Route path="/about" component={About} />
-          <Route path="/coming-soon" component={ComingSoon} />
-          <Route path="/404" component={NotFound} />
-          <Route path="/faq" component={Faq} />
-          <Route path="/pricing" component={Pricing} />
-          <Route path="/contact" component={Contact} />
+        <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<PortfolioMain />} />
+          <Route path="/portfolio-single" element={<PortfolioSingle />} />
+          <Route path="/submenu01" element={<Submenu01 />} />
+          <Route path="/submenu02" element={<Submenu02 />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/blog-grid" element={<BlogGrid />} />
+          <Route path="/blog-single" element={<BlogSingle />} />
+          <Route path="/blog-right-sidebar" element={<BlogRightSidebar />} />
+          <Route path="/blog-left-sidebar" element={<BlogLeftSidebar />} />
+          <Route path="/blog-full-width" element={<BlogFullWidth />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
+          <Route path="/404" element={<NotFound />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>
