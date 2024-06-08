@@ -20,7 +20,7 @@ const Header = () => {
                             <div className="collapse navbar-collapse ml-auto" id="navbarsExample09">
                                 <ul className="navbar-nav ml-auto">
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/">Home</Link>
+                                        <Link className="nav-link" to="/home">Home</Link>
                                     </li>
                                     <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <span className="ion-ios-arrow-down"></span></Link>
