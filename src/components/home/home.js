@@ -7,7 +7,7 @@ import Action from '../action/action';
 // import Testimonial from '../testimonial/testimonial';
 import Footer from '../footer/footer';
 import ScrollToTop from '../scrollToTop/scrollToTop';
-import Portfolio from '../portfolio/portfolio';
+import Portfolio from '../portfolio-main/portfolio-main';
 const Home = () => {
     return (
         <div>

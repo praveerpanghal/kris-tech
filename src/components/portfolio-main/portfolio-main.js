@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Portfolio = () => {
+const PortfolioMain = () => {
   return (
     <section className="feature bg-2">
       <div className="container">
@@ -28,4 +28,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioMain;

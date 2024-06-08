@@ -9,7 +9,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './components/home/home';
-//import Portfolio from "./components/portfolio/portfolio";
+import PortfolioMain from "./components/portfolio-main/portfolio-main";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
        
         <Routes>
           <Route path="/" exact component={Home} />
-          {/* <Route path="/portfolio" component={Portfolio} /> */}
+          <Route path="/portfolio" component={PortfolioMain} />
           <Route path="/portfolio-single" component={PortfolioSingle} />
           <Route path="/submenu01" component={Submenu01} />
           <Route path="/submenu02" component={Submenu02} />
