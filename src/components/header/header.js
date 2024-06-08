@@ -1,81 +1,77 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 const Header = () => {
-    return (        
-            <header className="navigation">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <nav className="navbar navbar-expand-lg p-0">
-                                <a className="navbar-brand" href="index.html">
-                                    <img src="images/logo.png" alt="Logo"/>
-                                </a>
+    return (
+        <header className="navigation">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <nav className="navbar navbar-expand-lg p-0">
+                            <Link className="navbar-brand" to="/">
+                                <img src="images/logo.png" alt="Logo" />
+                            </Link>
 
-                                <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span className="ion-android-menu"></span>
-                                </button>
+                            <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className="ion-android-menu"></span>
+                            </button>
 
-                                <div className="collapse navbar-collapse ml-auto" id="navbarsExample09">
-                                    <ul className="navbar-nav ml-auto">
-                                        <li className="nav-item @@home">
-                                            <a className="nav-link" href="index.html">Home</a>
-                                        </li>
-                                        <li className="nav-item dropdown @@portfolio">
-                                            <a className="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <span className="ion-ios-arrow-down"></span></a>
-                                            <ul className="dropdown-menu" aria-labelledby="dropdown03">
-                                                <li><a className="dropdown-item @@portfolioFilter" href="portfolio.html">Portfolio Filter</a></li>
-                                                <li><a className="dropdown-item @@portfolioSingle" href="portfolio-single.html">Portfolio Single</a></li>
-
-                                                <li className="dropdown dropdown-submenu dropright">
-                                                    <a className="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-                                                    <ul className="dropdown-menu" aria-labelledby="dropdown0301">
-                                                        <li><a className="dropdown-item" href="index.html">Submenu 01</a></li>
-                                                        <li><a className="dropdown-item" href="index.html">Submenu 02</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="nav-item @@service"><a className="nav-link" href="service.html">Service</a></li>
-                                        <li className="nav-item dropdown @@blog">
-                                            <a className="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">Blog <span className="ion-ios-arrow-down"></span></a>
-                                            <ul className="dropdown-menu" aria-labelledby="dropdown05">
-                                                <li><a className="dropdown-item @@blogGrid" href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a className="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li>
-                                                <li><a className="dropdown-item @@blogRS" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                <li><a className="dropdown-item @@blogLS" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                <li><a className="dropdown-item @@blogFW" href="blog-full-width.html">Blog Full Width</a></li>
-
-                                                <li className="dropdown dropdown-submenu dropleft">
-                                                    <a className="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button"
-                                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-                                                    <ul className="dropdown-menu" aria-labelledby="dropdown0501">
-                                                        <li><a className="dropdown-item" href="index.html">Submenu 01</a></li>
-                                                        <li><a className="dropdown-item" href="index.html">Submenu 02</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li className="nav-item dropdown @@pages">
-                                            <a className="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
-                                                aria-expanded="false">Pages <span className="ion-ios-arrow-down"></span></a>
-                                            <ul className="dropdown-menu" aria-labelledby="dropdown05">
-                                                <li><a className="dropdown-item @@about" href="about.html">About Us</a></li>
-                                                <li><a className="dropdown-item @@comingSoon" href="coming-soon.html">Coming Soon</a></li>
-                                                <li><a className="dropdown-item @@404" href="404.html">404 Page</a></li>
-                                                <li><a className="dropdown-item @@faq" href="faq.html">FAQ</a></li>
-                                                <li><a className="dropdown-item @@pricing" href="pricing.html">Pricing Table</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="nav-item @@contact"><a className="nav-link" href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </nav>
-                        </div>
+                            <div className="collapse navbar-collapse ml-auto" id="navbarsExample09">
+                                <ul className="navbar-nav ml-auto">
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/">Home</Link>
+                                    </li>
+                                    <li className="nav-item dropdown">
+                                        <Link className="nav-link dropdown-toggle" to="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <span className="ion-ios-arrow-down"></span></Link>
+                                        <ul className="dropdown-menu" aria-labelledby="dropdown03">
+                                            <li><Link className="dropdown-item" to="/portfolio">Portfolio Filter</Link></li>
+                                            <li><Link className="dropdown-item" to="/portfolio-single">Portfolio Single</Link></li>
+                                            <li className="dropdown dropdown-submenu dropright">
+                                                <Link className="dropdown-item dropdown-toggle" to="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</Link>
+                                                <ul className="dropdown-menu" aria-labelledby="dropdown0301">
+                                                    <li><Link className="dropdown-item" to="/submenu01">Submenu 01</Link></li>
+                                                    <li><Link className="dropdown-item" to="/submenu02">Submenu 02</Link></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li className="nav-item"><Link className="nav-link" to="/service">Service</Link></li>
+                                    <li className="nav-item dropdown">
+                                        <Link className="nav-link dropdown-toggle" to="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <span className="ion-ios-arrow-down"></span></Link>
+                                        <ul className="dropdown-menu" aria-labelledby="dropdown05">
+                                            <li><Link className="dropdown-item" to="/blog-grid">Blog Grid</Link></li>
+                                            <li><Link className="dropdown-item" to="/blog-single">Blog Single</Link></li>
+                                            <li><Link className="dropdown-item" to="/blog-right-sidebar">Blog Right Sidebar</Link></li>
+                                            <li><Link className="dropdown-item" to="/blog-left-sidebar">Blog Left Sidebar</Link></li>
+                                            <li><Link className="dropdown-item" to="/blog-full-width">Blog Full Width</Link></li>
+                                            <li className="dropdown dropdown-submenu dropleft">
+                                                <Link className="dropdown-item dropdown-toggle" to="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</Link>
+                                                <ul className="dropdown-menu" aria-labelledby="dropdown0501">
+                                                    <li><Link className="dropdown-item" to="/submenu01">Submenu 01</Link></li>
+                                                    <li><Link className="dropdown-item" to="/submenu02">Submenu 02</Link></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li className="nav-item dropdown">
+                                        <Link className="nav-link dropdown-toggle" to="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <span className="ion-ios-arrow-down"></span></Link>
+                                        <ul className="dropdown-menu" aria-labelledby="dropdown05">
+                                            <li><Link className="dropdown-item" to="/about">About Us</Link></li>
+                                            <li><Link className="dropdown-item" to="/coming-soon">Coming Soon</Link></li>
+                                            <li><Link className="dropdown-item" to="/404">404 Page</Link></li>
+                                            <li><Link className="dropdown-item" to="/faq">FAQ</Link></li>
+                                            <li><Link className="dropdown-item" to="/pricing">Pricing Table</Link></li>
+                                        </ul>
+                                    </li>
+                                    <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                 </div>
-            </header>       
+            </div>
+        </header>
     );
 };
+
 export default Header;
