@@ -9,7 +9,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './components/home/home';
-import PortfolioMain from "./components/home/portfolio-main/portfolio-main";
+import PortfolioMain from "./components/home/portfolioHome/portfolioHome";
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
 

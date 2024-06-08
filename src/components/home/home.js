@@ -1,19 +1,16 @@
-import About from './about/about';
-import Header from '../header/header';
-import Slider from './slider/slider';
-
-import Service from './service/service';
-import Action from './action/action';
+import AboutHome from './aboutHome/aboutHome';
+import Slider from './sliderHome/sliderHome';
+import Service from './serviceHome/serviceHome';
+import Action from './actionHome/actionHome';
 // import Testimonial from '../testimonial/testimonial';
 import Footer from '../footer/footer';
 import ScrollToTop from './scrollToTop/scrollToTop';
-import PortfolioMain from './portfolio-main/portfolio-main';
+import PortfolioMain from './portfolioHome/portfolioHome';
 const Home = () => {
     return (
-        <div>
-           
+        <div>           
             <Slider />
-            <About />
+            <AboutHome />
             <PortfolioMain/>
             <Service/>
             <Action/>
