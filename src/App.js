@@ -10,13 +10,15 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './components/home/home';
 import PortfolioMain from "./components/portfolio-main/portfolio-main";
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
       <Router>
        
-        {/* <Home/> */}
+      <Header />
        
         <Routes>
         <Route path="/" element={<Home />} />
@@ -37,6 +39,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

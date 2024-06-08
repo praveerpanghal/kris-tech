@@ -11,7 +11,7 @@ import Portfolio from '../portfolio-main/portfolio-main';
 const Home = () => {
     return (
         <div>
-            <Header />
+           
             <Slider />
             <About />
             <Portfolio/>
