@@ -6,6 +6,7 @@ import Service from '../service/service';
 import Action from '../action/action';
 // import Testimonial from '../testimonial/testimonial';
 import Footer from '../footer/footer';
+import ScrollToTop from '../scrollToTop/scrollToTop';
 const Home = () => {
     return (
         <div>
@@ -17,6 +18,7 @@ const Home = () => {
             <Action/>
             {/* <Testimonial/> */}
             <Footer/>
+            <ScrollToTop/>
         </div>
     )
 }
