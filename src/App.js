@@ -8,12 +8,14 @@ import "./scss/style.scss"
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header/header';
+import Slider from './components/slider/slider';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
+        <Slider/>
         <Routes>
           <Route path="/" exact component={Home} />
           <Route path="/portfolio" component={Portfolio} />
