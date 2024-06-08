@@ -25,8 +25,8 @@ const About = () => {
                     </div>
                     <div className="col-md-5">
                         <div className="block">
-                            <img src="../images/wrapper-img.png" alt="Img" />
-                            <img src="" alt="Img" />
+                            <img src="images/wrapper-img.png" alt="Img" />
+                            {/* <img src="" alt="Img" /> */}
                         </div>
                     </div>
                 </div>
