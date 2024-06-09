@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Service = () => {
+const ServiceHome = () => {
   return (
     <section className="service">
       <div className="container">
@@ -78,4 +78,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default ServiceHome;

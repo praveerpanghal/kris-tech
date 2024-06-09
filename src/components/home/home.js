@@ -1,21 +1,19 @@
 import AboutHome from './aboutHome/aboutHome';
-import Slider from './sliderHome/sliderHome';
-import Service from './serviceHome/serviceHome';
-import Action from './actionHome/actionHome';
-// import Testimonial from '../testimonial/testimonial';
-import Footer from '../footer/footer';
+import SliderHome from './sliderHome/sliderHome';
+import ServiceHome from './serviceHome/serviceHome';
+import ActionHome from './actionHome/actionHome';
 import ScrollToTop from './scrollToTop/scrollToTop';
-import PortfolioMain from './portfolioHome/portfolioHome';
+import PortfolioHome from './portfolioHome/portfolioHome';
+// import TestimonialHome from './testimonialHome/testimonialHome';
 const Home = () => {
     return (
         <div>           
-            <Slider />
+            <SliderHome />
             <AboutHome />
-            <PortfolioMain/>
-            <Service/>
-            <Action/>
-            {/* <Testimonial/> */}
-            <Footer/>
+            <PortfolioHome/>
+            <ServiceHome/>
+            <ActionHome/>
+            {/* <TestimonialHome/>       */}
             <ScrollToTop/>
         </div>
     )

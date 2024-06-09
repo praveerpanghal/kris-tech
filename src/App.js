@@ -12,6 +12,8 @@ import Home from './components/home/home';
 import PortfolioMain from "./components/home/portfolioHome/portfolioHome";
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
+import Service from './components/service/service';
+import Contact from './components/contact/contact';
 
 function App() {
   return (
@@ -51,7 +53,7 @@ function App() {
 const PortfolioSingle = () => <div>Portfolio Single Page</div>;
 const Submenu01 = () => <div>Submenu 01</div>;
 const Submenu02 = () => <div>Submenu 02</div>;
-const Service = () => <div>Service Page</div>;
+//const Service = () => <div>Service Page</div>;
 const BlogGrid = () => <div>Blog Grid Page</div>;
 const BlogSingle = () => <div>Blog Single Page</div>;
 const BlogRightSidebar = () => <div>Blog Right Sidebar Page</div>;
@@ -62,5 +64,5 @@ const ComingSoon = () => <div>Coming Soon Page</div>;
 const NotFound = () => <div>404 Page</div>;
 const Faq = () => <div>FAQ Page</div>;
 const Pricing = () => <div>Pricing Table Page</div>;
-const Contact = () => <div>Contact Page</div>;
+//const Contact = () => <div>Contact Page</div>;
 export default App;

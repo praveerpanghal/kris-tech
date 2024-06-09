@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Slider = () => {
+const SliderHome = () => {
     return (
         <section className="slider">
             <div className="container">
@@ -23,4 +23,4 @@ const Slider = () => {
     );
 };
 
-export default Slider;
+export default SliderHome;

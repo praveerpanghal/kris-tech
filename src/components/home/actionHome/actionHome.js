@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Action = () => {
+const ActionHome = () => {
   return (
     <section className="call-to-action bg-1 section-sm overly">
       <div className="container">
@@ -22,4 +22,4 @@ const Action = () => {
   );
 };
 
-export default Action;
+export default ActionHome;
