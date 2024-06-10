@@ -13,7 +13,8 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Service from './components/service/service';
 import Contact from './components/contact/contact';
-import Portfolio from './components/portfolio/portfolio';
+import PortfolioFilter from './components/portfolio/portfolioFilter/portfolioFilter';
+import PortfolioSingle from './components/portfolio/portfolioSingle/portfolioSingle';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio/>} />
+          <Route path="/portfolio" element={<PortfolioFilter/>} />
           <Route path="/portfolio-single" element={<PortfolioSingle />} />
           <Route path="/submenu01" element={<Submenu01 />} />
           <Route path="/submenu02" element={<Submenu02 />} />
@@ -49,7 +50,7 @@ function App() {
 }
 // Define your components for each route here or import them
 
-const PortfolioSingle = () => <div>Portfolio Single Page</div>;
+//const PortfolioSingle = () => <div>Portfolio Single Page</div>;
 const Submenu01 = () => <div>Submenu 01</div>;
 const Submenu02 = () => <div>Submenu 02</div>;
 const BlogGrid = () => <div>Blog Grid Page</div>;

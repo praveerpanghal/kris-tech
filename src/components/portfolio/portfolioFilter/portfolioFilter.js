@@ -1,7 +1,7 @@
 import React from 'react';
-import './portfolio.scss'; // Ensure you have the SCSS file for styling
+import './portfolioFilter.scss'; // Ensure you have the SCSS file for styling
 
-const Portfolio = () => {
+const PortfolioFilter = () => {
   return (
     <div>
       <section className="page-title bg-2">
@@ -109,4 +109,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioFilter;
