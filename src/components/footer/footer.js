@@ -12,15 +12,15 @@ const Footer = () => {
                 <li><Link to="/about">About Us</Link></li>
                 <li><Link to="/contact">Contact us</Link></li>
                 <li><Link to="/service">How it works</Link></li>
-                <li><Link to="/faq">FAQ</Link></li>
-                <li><Link to="/pricing">Pricing</Link></li>
+                <li><Link to="/contact">FAQ</Link></li>
+                <li><Link to="/contact">Pricing</Link></li>
               </ul>
             </div>
             <p className="copyright mb-0">
-              Copyright &copy; {new Date().getFullYear()} Designed & Developed by 
-              <a href="http://www.themefisher.com"> Themefisher</a>. All rights reserved.
-              <br />
-              Get More <a href="https://themefisher.com/free-bootstrap-templates/">Free Bootstrap Templates</a>
+              Copyright &copy; {new Date().getFullYear()} Designed & Developed by KrisTech.
+              {/* <a href="http://www.themefisher.com"> Themefisher</a>. All rights reserved. */}
+              {/* <br /> */}
+              {/* Get More <a href="https://themefisher.com/free-bootstrap-templates/">Free Bootstrap Templates</a> */}
             </p>
           </div>
         </div>

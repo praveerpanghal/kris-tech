@@ -37,7 +37,7 @@ const Contact = () => {
                 <div className="form-group-2">
                   <textarea name="user_message" className="form-control" rows="4" placeholder="Your Message"></textarea>
                 </div>
-                <button className="btn btn-default" type="submit">Send Message</button>
+                <button className="btn btn-default" type="button">Send Message</button>
               </div>
             </div>
             <div className="error" id="error">Sorry Msg does not sent</div>
