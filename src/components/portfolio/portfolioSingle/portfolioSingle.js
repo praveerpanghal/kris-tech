@@ -46,7 +46,7 @@ const PortfolioSingleSlider = () => {
 
 const ProjectDetails = () => {
   return (
-    <div className="project-details">
+    <div className="project-details text-left">
       <h4>Project Details</h4>
       <ul>
         <li><span><i className="fa fa-shirtsinbulk"></i> Client</span><strong>Jannie Kelonsky</strong></li>
@@ -62,11 +62,29 @@ const ProjectDetails = () => {
 
 const ProjectContent = () => {
   return (
-    <div className="project-content mt-50">
-      <h2 className="mb-3">Behance Website Redesign</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+    <div className="project-content mt-50 text-left">
+       <h2 class="mb-3">Behance Website Redesign</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas officiis cumque, harum dicta necessitatibus
+            reprehenderit, delectus molestiae, impedit alias adipisci distinctio voluptas. Tempora modi amet voluptate
+            at provident soluta consequatur.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quibusdam sed, neque recusandae, est
+            odit. A facere tempore soluta laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, rem eaque facilis. Sit, voluptas?
+            Error soluta odio, harum tenetur, alias in iure ipsam blanditiis illo, ratione, magnam a minima incidunt!
+            Suscipit facilis, ut maxime libero necessitatibus, rerum aut voluptates aliquam maiores iusto qui
+            temporibus nesciunt, incidunt in quasi. Veniam aliquid ea aperiam, obcaecati voluptate ab, temporibus
+            fugiat at, inventore molestiae quibusdam, modi numquam debitis libero aut eum. Architecto sit quia quidem
+            odit, quasi eveniet reprehenderit rerum dolorem voluptate sed aspernatur numquam enim, adipisci iste optio
+            ea libero laboriosam praesentium aperiam nobis vero tempore consequuntur sapiente eos at. Suscipit quis
+            voluptatibus temporibus dolore consectetur ex excepturi adipisci sunt. Maxime aperiam eos illum minima
+            aliquid voluptate autem qui at impedit recusandae earum possimus, alias, maiores sint, sed quia quis aut
+            cupiditate voluptatem reiciendis. Facilis nobis assumenda totam officiis dicta autem dolorem quidem
+            similique, delectus rerum laborum veritatis, cum magnam dignissimos necessitatibus possimus error, eius
+            omnis veniam culpa, porro officia adipisci exercitationem minus hic. Ipsum veritatis repudiandae nulla quo
+            dicta voluptates tenetur mollitia perferendis sequi, magnam doloremque odit similique, sit, voluptas unde
+            iste molestias. Accusantium, corporis quibusdam quod in animi earum alias autem ipsum. Eaque rem numquam
+            delectus veniam commodi doloribus consequatur deleniti?
+            </p>
       <div className="my-4">
         <div className="embed-responsive embed-responsive-16by9">
           <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/LKFuXETZUsI?rel=0" allowFullScreen></iframe>
@@ -103,7 +121,7 @@ const RelatedProjects = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row text-left">
           {projects.map((project, index) => (
             <div className="col-md-6 mt-5" key={index}>
               <div className="content">
