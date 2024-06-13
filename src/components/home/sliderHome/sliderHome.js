@@ -12,8 +12,8 @@ const SliderHome = () => {
                                 We love the Web and the work we do. We work closely with our clients to deliver <br />
                                 the best possible solutions for their needs
                             </p>
-                            <a href="/home" className="btn btn-main animated fadeInUp">
-                                Book Now
+                            <a href="/contact" className="btn btn-main animated fadeInUp">
+                                Connect Now !
                             </a>
                         </div>
                     </div>

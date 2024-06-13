@@ -15,6 +15,7 @@ import Service from './components/service/service';
 import Contact from './components/contact/contact';
 import PortfolioFilter from './components/portfolio/portfolioFilter/portfolioFilter';
 import PortfolioSingle from './components/portfolio/portfolioSingle/portfolioSingle';
+import AboutUs from './components/aboutUs/aboutUs';
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
           <Route path="/blog-right-sidebar" element={<BlogRightSidebar />} />
           <Route path="/blog-left-sidebar" element={<BlogLeftSidebar />} />
           <Route path="/blog-full-width" element={<BlogFullWidth />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutUs />} />
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/404" element={<NotFound />} />
           <Route path="/faq" element={<Faq />} />
