@@ -9,8 +9,9 @@ const Contact = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="block">
-                <h1>Drop Us A Note</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quibusdam.</p>
+                <h1>Drop Us An Email</h1>               
+                <p>Have a question, feedback, or just want to say hello? We’d love to hear from you! </p>
+                <p>Feel free to contact us, and we’ll get back to you as soon as possible.</p>               
               </div>
             </div>
           </div>
@@ -43,39 +44,39 @@ const Contact = () => {
             <div className="error" id="error">Sorry Msg does not sent</div>
             <div className="success" id="success">Message Sent</div>
           </form>
-          <div className="contact-box row">
+          <div className="contact-box row text-left">
             <div className="col-md-6 col-sm-12">
               <div className="block">
-                <h2>Stop By For A visit</h2>
+                <h2>Come visit us sometime!</h2>
                 <ul className="address-block">
                   <li>
-                    <i className="ion-ios-location-outline"></i> North Main Street, Brooklyn Australia
+                    <i className="ion-ios-location-outline"></i> Greater Noida, Uttar Pradesh, India
                   </li>
                   <li>
-                    <i className="ion-ios-email-outline"></i> Email: contact@mail.com
+                    <i className="ion-ios-email-outline"></i> Email: amit.chaudhary97@gmail.com
                   </li>
                   <li>
-                    <i className="ion-ios-telephone-outline"></i> Phone: +88 01672 506 744
+                    <i className="ion-ios-telephone-outline"></i> Phone: +91-9350520148
                   </li>
                 </ul>
                 <ul className="social-icons">
                   <li>
-                    <a href="http://www.themefisher.com"><i className="ion-social-googleplus-outline"></i></a>
+                    <a href="/"><i className="ion-social-googleplus-outline"></i></a>
                   </li>
                   <li>
-                    <a href="http://www.themefisher.com"><i className="ion-social-linkedin-outline"></i></a>
+                    <a href="/"><i className="ion-social-linkedin-outline"></i></a>
                   </li>
                   <li>
-                    <a href="http://www.themefisher.com"><i className="ion-social-pinterest-outline"></i></a>
+                    <a href="/"><i className="ion-social-pinterest-outline"></i></a>
                   </li>
                   <li>
-                    <a href="http://www.themefisher.com"><i className="ion-social-dribbble-outline"></i></a>
+                    <a href="/"><i className="ion-social-dribbble-outline"></i></a>
                   </li>
                   <li>
-                    <a href="http://www.themefisher.com"><i className="ion-social-twitter-outline"></i></a>
+                    <a href="/"><i className="ion-social-twitter-outline"></i></a>
                   </li>
                   <li>
-                    <a href="http://www.themefisher.com"><i className="ion-social-facebook-outline"></i></a>
+                    <a href="/"><i className="ion-social-facebook-outline"></i></a>
                   </li>
                 </ul>
               </div>
