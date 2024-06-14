@@ -9,8 +9,7 @@ const SliderHome = () => {
                         <div className="block">
                             <h1 className="animated fadeInUp">IT Consulting, Digital Marketing, <br /> Training &amp; AI Design Agency</h1>
                             <p className="animated fadeInUp">
-                                We love the Web and the work we do. We work closely with our clients to deliver <br />
-                                the best possible solutions for their needs
+                            We're passionate about the web & mobile apps and take pride in our work.<br/> Our collaborative approach ensures we provide tailored solutions that meet our clients' needs.
                             </p>
                             <a href="/contact" className="btn btn-main animated fadeInUp">
                                 Connect Now !
