@@ -9,8 +9,11 @@ const PortfolioFilter = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="block">
-                <h1>Some of our latest projects.</h1>
-                <p>Don’t just take our word for it. Check out some of our latest work.</p>
+                <h1>Our Recent Projects.</h1>
+                <p>Explore our recent projects to see the results we've achieved.
+                   Our portfolio showcases the high-quality work we've done for our clients.
+                  Each project highlights our commitment to excellence and innovation. 
+                  See firsthand how we can bring value to your business.</p>
               </div>
             </div>
           </div>
@@ -42,61 +45,61 @@ const PortfolioFilter = () => {
                   <div className="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups='["design"]'>
                     <img src="images/portfolio/work1.jpg" alt="" />
                     <div className="portfolio-hover">
-                      <div className="portfolio-content">
+                      {/* <div className="portfolio-content">
                         <a href="images/portfolio/work1.jpg" className="portfolio-popup"><i className="icon ion-search"></i></a>
                         <a className="h3" href="portfolio-single.html">Rio Furniture</a>
                         <p>Labore et dolore magna aliqua. Ut enim ad </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups='["design","illustration"]'>
                     <img src="images/portfolio/work2.jpg" alt="" />
                     <div className="portfolio-hover">
-                      <div className="portfolio-content">
+                      {/* <div className="portfolio-content">
                         <a href="images/portfolio/work2.jpg" className="portfolio-popup"><i className="icon ion-search"></i></a>
                         <a className="h3" href="portfolio-single.html">Rio Furniture</a>
                         <p>Labore et dolore magna aliqua. Ut enim ad </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups='["illustration"]'>
                     <img src="images/portfolio/work3.jpg" alt="" />
                     <div className="portfolio-hover">
-                      <div className="portfolio-content">
+                      {/* <div className="portfolio-content">
                         <a href="images/portfolio/work3.jpg" className="portfolio-popup"><i className="icon ion-search"></i></a>
                         <a className="h3" href="portfolio-single.html">Rio Furniture</a>
                         <p>Labore et dolore magna aliqua. Ut enim ad </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups='["video","illustration"]'>
                     <img src="images/portfolio/work4.jpg" alt="" />
                     <div className="portfolio-hover">
-                      <div className="portfolio-content">
+                      {/* <div className="portfolio-content">
                         <a href="images/portfolio/work4.jpg" className="portfolio-popup"><i className="icon ion-search"></i></a>
                         <a className="h3" href="portfolio-single.html">Rio Furniture</a>
                         <p>Labore et dolore magna aliqua. Ut enim ad </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups='["design","illustration"]'>
                     <img src="images/portfolio/work5.jpg" alt="" />
                     <div className="portfolio-hover">
-                      <div className="portfolio-content">
+                      {/* <div className="portfolio-content">
                         <a href="images/portfolio/work5.jpg" className="portfolio-popup"><i className="icon ion-search"></i></a>
                         <a className="h3" href="portfolio-single.html">Rio Furniture</a>
                         <p>Labore et dolore magna aliqua. Ut enim ad </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups='["design","video"]'>
                     <img src="images/portfolio/work6.jpg" alt="" />
                     <div className="portfolio-hover">
-                      <div className="portfolio-content">
+                      {/* <div className="portfolio-content">
                         <a href="images/portfolio/work6.jpg" className="portfolio-popup"><i className="icon ion-search"></i></a>
                         <a className="h3" href="portfolio-single.html">Rio Furniture</a>
                         <p>Labore et dolore magna aliqua. Ut enim ad </p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

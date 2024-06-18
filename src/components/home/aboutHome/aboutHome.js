@@ -1,5 +1,5 @@
 import React from 'react';
-import {companyName}  from "../../constants/commonConstant";
+import {companyName}  from "../../../constants/commonConstant";
 
 const AboutHome = () => {
     return (
@@ -9,7 +9,7 @@ const AboutHome = () => {
                     <div className="col-md-7">
                         <div className="block">
                             <div className="section-title">
-                                <h2>About Us</h2>
+                                <h2 className='text-left'>About Us</h2>
                                 <p className='text-left'>
                                 Welcome to {companyName}, where innovation meets expertise.
                                  Founded with a vision to bridge the gap between technology and business,

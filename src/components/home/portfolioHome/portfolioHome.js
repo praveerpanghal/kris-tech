@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const PortfolioHome = () => {
   return (
     <section className="feature bg-2">
-      <div className="container">
+      <div className="container text-left">
         <div className="row justify-content-end">
           <div className="col-md-6">
             <h2 className="section-subtitle">Why Choose Us?</h2>

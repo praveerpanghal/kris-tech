@@ -25,8 +25,8 @@ const Header = () => {
                                     <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <span className="ion-ios-arrow-down"></span></Link>
                                         <ul className="dropdown-menu" aria-labelledby="dropdown03">
-                                            <li><Link className="dropdown-item" to="/portfolio">Portfolio Filter</Link></li>
-                                            <li><Link className="dropdown-item" to="/portfolio-single">Portfolio Single</Link></li>
+                                            <li><Link className="dropdown-item" to="/portfolio">Latest Projects</Link></li>
+                                            {/* <li><Link className="dropdown-item" to="/portfolio-single">Project Details</Link></li> */}
                                             {/* <li className="dropdown dropdown-submenu dropright">
                                                 <Link className="dropdown-item dropdown-toggle" to="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</Link>
                                                 <ul className="dropdown-menu" aria-labelledby="dropdown0301">
