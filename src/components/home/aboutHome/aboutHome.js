@@ -1,4 +1,5 @@
 import React from 'react';
+import {companyName}  from "../../constants/commonConstant";
 
 const AboutHome = () => {
     return (
@@ -9,17 +10,16 @@ const AboutHome = () => {
                         <div className="block">
                             <div className="section-title">
                                 <h2>About Us</h2>
-                                <p>
-                                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                    there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+                                <p className='text-left'>
+                                Welcome to {companyName}, where innovation meets expertise.
+                                 Founded with a vision to bridge the gap between technology and business,
+                                  we specialize in IT consulting, software development, and comprehensive training solutions.
                                 </p>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                anim id est laborum.
+                            <p className='text-left'>
+                            Our mission is to empower businesses with cutting-edge technology solutions and knowledge,
+                             enabling them to achieve their full potential. 
+                            We believe in fostering growth and innovation through tailored strategies and expert guidance.
                             </p>
                         </div>
                     </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {companyName}  from "../../constants/commonConstant";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
               </ul>
             </div>
             <p className="copyright mb-0">
-              Copyright &copy; {new Date().getFullYear()} Designed & Developed by KrisTech.
+              Copyright &copy; {new Date().getFullYear()} Designed & Developed by {companyName}.
               {/* <a href="http://www.themefisher.com"> Themefisher</a>. All rights reserved. */}
               {/* <br /> */}
               {/* Get More <a href="https://themefisher.com/free-bootstrap-templates/">Free Bootstrap Templates</a> */}
