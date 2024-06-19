@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.scss'; // Ensure you have the SCSS file for styling
+import ScrollToTop from '../home/scrollToTop/scrollToTop';
 
 const Contact = () => {
   return (
@@ -9,9 +10,9 @@ const Contact = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="block">
-                <h1>Drop Us An Email</h1>               
+                <h1>Drop Us An Email</h1>
                 <p>Have a question, feedback, or just want to say hello? We’d love to hear from you! </p>
-                <p>Feel free to contact us, and we’ll get back to you as soon as possible.</p>               
+                <p>Feel free to contact us, and we’ll get back to you as soon as possible.</p>
               </div>
             </div>
           </div>
@@ -92,6 +93,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <ScrollToTop />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import './aboutUs.scss';
+import ScrollToTop from '../home/scrollToTop/scrollToTop';
 
 const AboutUs = () => {
   return (
@@ -147,6 +148,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      <ScrollToTop/>
     </div>
   );
 };

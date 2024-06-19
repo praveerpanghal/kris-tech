@@ -1,5 +1,6 @@
 import React from 'react';
 import './portfolioFilter.scss'; // Ensure you have the SCSS file for styling
+import ScrollToTop from '../../home/scrollToTop/scrollToTop';
 
 const PortfolioFilter = () => {
   return (
@@ -108,6 +109,7 @@ const PortfolioFilter = () => {
           </div>
         </div>
       </section>
+      <ScrollToTop/>
     </div>
   );
 };
