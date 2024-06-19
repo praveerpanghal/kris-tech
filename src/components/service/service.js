@@ -73,16 +73,19 @@ const Service = () => {
                 <p className="text-justify">Our digital marketing services are designed to help your business grow and succeed in the online landscape. 
                   We create tailored marketing strategies that increase your brand's visibility, engage your target audience, 
                   and drive conversions. Our services include search engine optimization (SEO), social media marketing,
-                   content creation, email marketing, and pay-per-click (PPC) advertising. By leveraging the latest tools 
-                   and techniques, we ensure your marketing efforts are effective and deliver measurable results. 
-                   Let us help you reach your marketing goals and achieve sustainable growth.</p>
+                   content creation, email marketing, and pay-per-click (PPC) advertising. 
+                  </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-12 bg-primary bg-primary-darker">
               <div className="block">
                 <i className="ion-lightbulb text-white"></i>
-                <h3 className="text-white mb-3">Game Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus.</p>
+                <h3 className="text-white mb-3">Web / App Development</h3>
+                <p className="text-justify">Our web and app development services provide custom solutions tailored to your business needs.
+                   We specialize in creating robust, scalable, and user-friendly web and mobile applications. 
+                   Our development process involves thorough planning, innovative design, and agile execution to
+                    deliver high-quality products. From e-commerce platforms to enterprise applications,
+                     we ensure your digital solutions are secure, efficient, and aligned with your business objectives.</p>
               </div>
             </div>
           </div>
