@@ -159,12 +159,16 @@ const Service = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="block">
-                <h2 className="mb-3">We design delightful digital experiences.</h2>
-                <p>
-                  Read more about what we do and our philosophy of design. Judge for yourself The work and results
-                  we’ve achieved for other clients, and meet our highly experienced Team who just love to design.
+                <h2 className="mb-3">We craft engaging and enjoyable digital experiences.</h2>
+                <p className="text-left"> At {companyName}, we specialize in creating digital experiences that are not only 
+                  functional but also enjoyable and engaging. Our team of expert designers 
+                  focuses on crafting user-centric interfaces that enhance satisfaction and usability. 
+                  We combine aesthetics with seamless functionality to deliver digital solutions that delight users 
+                  and meet business goals. From websites to mobile apps, we ensure every interaction is intuitive,
+                   beautiful, and impactful. Join us in transforming your digital presence into an experience your
+                    users will love.
                 </p>
-                <a className="btn btn-main btn-solid-border" href="contact.html">Tell Us Your Story</a>
+                <a className="btn btn-main btn-solid-border" href="/contact">Connect Us</a>
               </div>
             </div>
           </div>

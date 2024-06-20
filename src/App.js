@@ -25,7 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/portfolio" element={<PortfolioFilter/>} />
+          <Route path="/projects" element={<PortfolioFilter/>} />
           <Route path="/portfolio-single" element={<PortfolioSingle />} />
           <Route path="/submenu01" element={<Submenu01 />} />
           <Route path="/submenu02" element={<Submenu02 />} />

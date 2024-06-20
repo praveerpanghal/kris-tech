@@ -22,20 +22,21 @@ const Header = () => {
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/home">Home</Link>
                                     </li>
-                                    <li className="nav-item dropdown">
+                                    <li className="nav-item"><Link className="nav-link" to="/projects">Projects</Link></li>
+                                    {/* <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio <span className="ion-ios-arrow-down"></span></Link>
                                         <ul className="dropdown-menu" aria-labelledby="dropdown03">
                                             <li><Link className="dropdown-item" to="/portfolio">Latest Projects</Link></li>
-                                            {/* <li><Link className="dropdown-item" to="/portfolio-single">Project Details</Link></li> */}
-                                            {/* <li className="dropdown dropdown-submenu dropright">
+                                            <li><Link className="dropdown-item" to="/portfolio-single">Project Details</Link></li>
+                                            <li className="dropdown dropdown-submenu dropright">
                                                 <Link className="dropdown-item dropdown-toggle" to="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</Link>
                                                 <ul className="dropdown-menu" aria-labelledby="dropdown0301">
                                                     <li><Link className="dropdown-item" to="/submenu01">Submenu 01</Link></li>
                                                     <li><Link className="dropdown-item" to="/submenu02">Submenu 02</Link></li>
                                                 </ul>
-                                            </li> */}
+                                            </li>
                                         </ul>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item"><Link className="nav-link" to="/service">Service</Link></li>
                                     {/* <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <span className="ion-ios-arrow-down"></span></Link>
