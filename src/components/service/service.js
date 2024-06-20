@@ -1,7 +1,7 @@
 import React from 'react';
 import './service.scss'; // Ensure you have the SCSS file for styling
 import ScrollToTop from '../home/scrollToTop/scrollToTop';
-import {companyName}  from "../../constants/commonConstant";
+import { companyName } from "../../constants/commonConstant";
 
 const Service = () => {
   return (
@@ -108,7 +108,7 @@ const Service = () => {
                 <h3 className="mb-3">IT Software Training</h3>
                 <p className="text-justify">Our expert trainers offer hands-on learning in web development, programming, cloud computing,
                   cybersecurity, data science, and more. With flexible delivery options and customized programs,
-                  we ensure our training meets your specific needs and helps you stay ahead in the fast-paced IT industry.</p>
+                  we ensure our training meets your specific needs.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
@@ -122,27 +122,32 @@ const Service = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="block">
                 <h3 className="mb-3">Recruitment and Placement</h3>
-                <p>At {companyName}, we specialize in connecting talented IT professionals with top companies.
+                <p className="text-justify">At {companyName}, we specialize in connecting talented IT professionals with top companies.
                   Our expert team ensures the right fit for both candidates and employers,
                   streamlining the hiring process and securing successful placements.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="block">
-                <h3 className="mb-3">Front-end engineering</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
+                <h3 className="mb-3">Web and Mobile Development</h3>
+                <p className="text-justify">Master the skills needed to create dynamic websites & mobile apps with our comprehensive training.
+                  Learn the latest technologies and best practices in frontend and backend development, as well as cross-platform mobile app development.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="block">
-                <h3 className="mb-3">Usability testing & analytics</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
+                <h3 className="mb-3">IT Consulting</h3>
+                <p className="text-justify">At {companyName}, we provide expert IT consulting services to 
+                  help businesses optimize their technology strategies, and drive innovation. 
+                  Our experienced consultants deliver tailored solutions to meet your unique business needs.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="block">
-                <h3 className="mb-3">Design sprints & prototyping</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
+                <h3 className="mb-3">UI/UX Design</h3>
+                <p className="text-justify">Master the principles of user interface and user experience design with our expert-led training. 
+                  Learn to create intuitive, user-friendly interfaces and enhance user satisfaction through
+                   hands-on projects and real-world applications.</p>
               </div>
             </div>
           </div>
