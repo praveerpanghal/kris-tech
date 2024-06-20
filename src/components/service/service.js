@@ -1,6 +1,7 @@
 import React from 'react';
 import './service.scss'; // Ensure you have the SCSS file for styling
 import ScrollToTop from '../home/scrollToTop/scrollToTop';
+import {companyName}  from "../../constants/commonConstant";
 
 const Service = () => {
   return (
@@ -61,8 +62,8 @@ const Service = () => {
               <div className="block">
                 <i className="ion-erlenmeyer-flask text-white"></i>
                 <h3 className="text-white mb-3">UX/UI Interface Design</h3>
-                <p className='text-justify'>Our team excels in creating intuitive and visually captivating interfaces that enhance user experience. 
-                  By focusing on user needs and behaviors, we design interfaces that are not only beautiful but also highly functional. From initial wireframes to polished prototypes, every element is crafted to provide a seamless and engaging interaction. 
+                <p className='text-justify'>Our team excels in creating intuitive and visually captivating interfaces that enhance user experience.
+                  By focusing on user needs and behaviors, we design interfaces that are not only beautiful but also highly functional. From initial wireframes to polished prototypes, every element is crafted to provide a seamless and engaging interaction.
                   Our goal is to ensure your digital products are easy to use and leave a lasting impression on your users.</p>
               </div>
             </div>
@@ -70,11 +71,11 @@ const Service = () => {
               <div className="block">
                 <i className="ion-leaf text-white"></i>
                 <h3 className="text-white mb-3">Digital Marketing</h3>
-                <p className="text-justify">Our digital marketing services are designed to help your business grow and succeed in the online landscape. 
-                  We create tailored marketing strategies that increase your brand's visibility, engage your target audience, 
+                <p className="text-justify">Our digital marketing services are designed to help your business grow and succeed in the online landscape.
+                  We create tailored marketing strategies that increase your brand's visibility, engage your target audience,
                   and drive conversions. Our services include search engine optimization (SEO), social media marketing,
-                   content creation, email marketing, and pay-per-click (PPC) advertising. 
-                  </p>
+                  content creation, email marketing, and pay-per-click (PPC) advertising.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-12 bg-primary bg-primary-darker">
@@ -82,10 +83,10 @@ const Service = () => {
                 <i className="ion-lightbulb text-white"></i>
                 <h3 className="text-white mb-3">Web / App Development</h3>
                 <p className="text-justify">Our web and app development services provide custom solutions tailored to your business needs.
-                   We specialize in creating robust, scalable, and user-friendly web and mobile applications. 
-                   Our development process involves thorough planning, innovative design, and agile execution to
-                    deliver high-quality products. From e-commerce platforms to enterprise applications,
-                     we ensure your digital solutions are secure, efficient, and aligned with your business objectives.</p>
+                  We specialize in creating robust, scalable, and user-friendly web and mobile applications.
+                  Our development process involves thorough planning, innovative design, and agile execution to
+                  deliver high-quality products. From e-commerce platforms to enterprise applications,
+                  we ensure your digital solutions are secure, efficient, and aligned with your business objectives.</p>
               </div>
             </div>
           </div>
@@ -97,27 +98,33 @@ const Service = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="section-title text-center">
-                <h2>What we do best</h2>
+                <h2>Our Expertise</h2>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="block">
-                <h3 className="mb-3">User research</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
+                <h3 className="mb-3">IT Software Training</h3>
+                <p className="text-justify">Our expert trainers offer hands-on learning in web development, programming, cloud computing,
+                  cybersecurity, data science, and more. With flexible delivery options and customized programs,
+                  we ensure our training meets your specific needs and helps you stay ahead in the fast-paced IT industry.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="block">
-                <h3 className="mb-3">Product marketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
+                <h3 className="mb-3">Digital Marketing</h3>
+                <p className="text-justify">Our digital marketing services are designed to help your business grow.
+                  Our services include search engine optimization (SEO), social media marketing,
+                  content creation, email marketing, and pay-per-click (PPC) advertising.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="block">
-                <h3 className="mb-3">Visual design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, unde.</p>
+                <h3 className="mb-3">Recruitment and Placement</h3>
+                <p>At {companyName}, we specialize in connecting talented IT professionals with top companies.
+                  Our expert team ensures the right fit for both candidates and employers,
+                  streamlining the hiring process and securing successful placements.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
