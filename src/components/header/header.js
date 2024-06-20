@@ -55,7 +55,7 @@ const Header = () => {
                                             </li>
                                         </ul>
                                     </li> */}
-                                     <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
+                                     {/* <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li> */}
                                     {/* <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <span className="ion-ios-arrow-down"></span></Link>
                                         <ul className="dropdown-menu" aria-labelledby="dropdown05">
