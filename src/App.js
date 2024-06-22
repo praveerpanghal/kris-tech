@@ -16,6 +16,7 @@ import Contact from './components/contact/contact';
 import PortfolioFilter from './components/portfolio/portfolioFilter/portfolioFilter';
 import PortfolioSingle from './components/portfolio/portfolioSingle/portfolioSingle';
 import AboutUs from './components/aboutUs/aboutUs';
+import ContactDetails from './components/admin/contactDetails/contactDetails';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/faq" element={<Contact />} />
           <Route path="/pricing" element={<Contact />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/admin" element={<ContactDetails />} />
         </Routes>
         <Footer />
       </Router>
