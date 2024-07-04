@@ -13,9 +13,7 @@ import Header from './components/header/header';
 import Footer from './components/footer/footer';
 import Service from './components/service/service';
 import Contact from './components/contact/contact';
-import PortfolioFilter from './components/portfolio/portfolioFilter/portfolioFilter';
 import PortfolioSingle from './components/portfolio/portfolioSingle/portfolioSingle';
-import AboutUs from './components/aboutUs/aboutUs';
 import ContactDetails from './components/admin/contactDetails/contactDetails';
 import Projects from './components/projects/projects';
 
@@ -37,7 +35,7 @@ function App() {
           <Route path="/blog-right-sidebar" element={<BlogRightSidebar />} />
           <Route path="/blog-left-sidebar" element={<BlogLeftSidebar />} />
           <Route path="/blog-full-width" element={<BlogFullWidth />} />
-          <Route path="/about" element={<AboutUs />} />
+          <Route path="/about" element={<Home />} />
           <Route path="/coming-soon" element={<ComingSoon />} />
           <Route path="/404" element={<NotFound />} />
           <Route path="/faq" element={<Contact />} />

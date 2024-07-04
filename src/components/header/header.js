@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import "./header.scss";
+import * as constants from "../../constants/commonConstant";
 
 const Header = () => {
     return (
@@ -9,7 +10,7 @@ const Header = () => {
             <div className="container">
                 <Navbar expand="lg">
                     <Link className="navbar-brand" to="/home">
-                        <img src="images/kris-log-min1.png" alt="OVA2 Consultants" className="header-logo" />
+                        <img src="images/kris-log-min1.png" alt={constants.companyName} className="header-logo" />
                     </Link>
                     <Navbar.Toggle aria-controls="navbar-nav" />
                     <Navbar.Collapse id="navbar-nav">

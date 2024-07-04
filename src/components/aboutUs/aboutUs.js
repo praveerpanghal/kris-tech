@@ -31,7 +31,7 @@ const AboutUs = () => {
                 <h2>We strive to be the best and <br /> make awesome work.</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam iure officiis facere vitae itaque.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, neque!</p>
-                <a href="contact.html" className="btn btn-small">Download Company Profile</a>
+                <a href="/contact" className="btn btn-small">Download Company Profile</a>
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@ const AboutUs = () => {
               <div className="block">
                 <h2 className="mb-3">We design delightful digital experiences.</h2>
                 <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results <br /> we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-                <a className="btn btn-main btn-solid-border" href="contact.html">Tell Us Your Story</a>
+                <a className="btn btn-main btn-solid-border" href="/contact">Tell Us Your Story</a>
               </div>
             </div>
           </div>
