@@ -16,6 +16,7 @@ import Contact from './components/contact/contact';
 import PortfolioSingle from './components/portfolio/portfolioSingle/portfolioSingle';
 import ContactDetails from './components/admin/contactDetails/contactDetails';
 import Projects from './components/projects/projects';
+import Login from './components/login/login';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/pricing" element={<Contact />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/admin" element={<ContactDetails />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </Router>
