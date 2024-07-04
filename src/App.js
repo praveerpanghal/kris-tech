@@ -60,9 +60,7 @@ const BlogSingle = () => <div>Blog Single Page</div>;
 const BlogRightSidebar = () => <div>Blog Right Sidebar Page</div>;
 const BlogLeftSidebar = () => <div>Blog Left Sidebar Page</div>;
 const BlogFullWidth = () => <div>Blog Full Width Page</div>;
-const About = () => <div>About Us Page</div>;
 const ComingSoon = () => <div>Coming Soon Page</div>;
 const NotFound = () => <div>404 Page</div>;
-const Faq = () => <div>FAQ Page</div>;
-const Pricing = () => <div>Pricing Table Page</div>;
+
 export default App;
