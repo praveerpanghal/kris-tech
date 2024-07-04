@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './projects.scss'; // Ensure you have the SCSS file for styling
 import ScrollToTop from '../home/scrollToTop/scrollToTop';
 
 const Projects = () => {
+  const [filter, setFilter] = useState('all');
+
+  const handleFilterChange = (event) => {
+    setFilter(event.target.value);
+  };
+
   return (
     <div>
       <section className="page-title bg-2">
@@ -28,17 +34,41 @@ const Projects = () => {
               <div className="block">
                 <div className="portfolio-menu">
                   <div className="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
-                    <label className="btn btn-sm btn-primary active">
-                      <input type="radio" name="shuffle-filter" value="all" checked="checked" /> All
+                    <label className={`btn btn-sm btn-primary ${filter === 'all' ? 'active' : ''}`}>
+                      <input
+                        type="radio"
+                        name="shuffle-filter"
+                        value="all"
+                        checked={filter === 'all'}
+                        onChange={handleFilterChange}
+                      /> All
                     </label>
-                    <label className="btn btn-sm btn-primary">
-                      <input type="radio" name="shuffle-filter" value="design" /> UI/UX Design
+                    <label className={`btn btn-sm btn-primary ${filter === 'design' ? 'active' : ''}`}>
+                      <input
+                        type="radio"
+                        name="shuffle-filter"
+                        value="design"
+                        checked={filter === 'design'}
+                        onChange={handleFilterChange}
+                      /> UI/UX Design
                     </label>
-                    <label className="btn btn-sm btn-primary">
-                      <input type="radio" name="shuffle-filter" value="video" /> Video
+                    <label className={`btn btn-sm btn-primary ${filter === 'video' ? 'active' : ''}`}>
+                      <input
+                        type="radio"
+                        name="shuffle-filter"
+                        value="video"
+                        checked={filter === 'video'}
+                        onChange={handleFilterChange}
+                      /> Video
                     </label>
-                    <label className="btn btn-sm btn-primary">
-                      <input type="radio" name="shuffle-filter" value="illustration" /> ILLUSTRATION
+                    <label className={`btn btn-sm btn-primary ${filter === 'illustration' ? 'active' : ''}`}>
+                      <input
+                        type="radio"
+                        name="shuffle-filter"
+                        value="illustration"
+                        checked={filter === 'illustration'}
+                        onChange={handleFilterChange}
+                      /> ILLUSTRATION
                     </label>
                   </div>
                 </div>
