@@ -1,1 +1,1 @@
-export const companyName="VAAO Tech";
+export const companyName="OVA Consultants";

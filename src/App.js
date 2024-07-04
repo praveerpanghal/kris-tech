@@ -17,6 +17,7 @@ import PortfolioFilter from './components/portfolio/portfolioFilter/portfolioFil
 import PortfolioSingle from './components/portfolio/portfolioSingle/portfolioSingle';
 import AboutUs from './components/aboutUs/aboutUs';
 import ContactDetails from './components/admin/contactDetails/contactDetails';
+import Projects from './components/projects/projects';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/projects" element={<PortfolioFilter/>} />
+          <Route path="/projects" element={<Projects/>} />
           <Route path="/portfolio-single" element={<PortfolioSingle />} />
           <Route path="/submenu01" element={<Submenu01 />} />
           <Route path="/submenu02" element={<Submenu02 />} />
