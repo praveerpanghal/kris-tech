@@ -17,36 +17,44 @@ import PortfolioSingle from './components/portfolio/portfolioSingle/portfolioSin
 import ContactDetails from './components/admin/contactDetails/contactDetails';
 import Projects from './components/projects/projects';
 import Login from './components/login/login';
+import { AuthProvider } from './AuthContext';
+import ProtectedRoute from './ProtectedRoute';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/portfolio-single" element={<PortfolioSingle />} />
-          <Route path="/submenu01" element={<Submenu01 />} />
-          <Route path="/submenu02" element={<Submenu02 />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/blog-grid" element={<BlogGrid />} />
-          <Route path="/blog-single" element={<BlogSingle />} />
-          <Route path="/blog-right-sidebar" element={<BlogRightSidebar />} />
-          <Route path="/blog-left-sidebar" element={<BlogLeftSidebar />} />
-          <Route path="/blog-full-width" element={<BlogFullWidth />} />
-          <Route path="/about" element={<Home />} />
-          <Route path="/coming-soon" element={<ComingSoon />} />
-          <Route path="/404" element={<NotFound />} />
-          <Route path="/faq" element={<Contact />} />
-          <Route path="/pricing" element={<Contact />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/admin" element={<ContactDetails />} />
-          <Route path="/login" element={<Login />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/portfolio-single" element={<PortfolioSingle />} />
+            <Route path="/submenu01" element={<Submenu01 />} />
+            <Route path="/submenu02" element={<Submenu02 />} />
+            <Route path="/service" element={<Service />} />
+            <Route path="/blog-grid" element={<BlogGrid />} />
+            <Route path="/blog-single" element={<BlogSingle />} />
+            <Route path="/blog-right-sidebar" element={<BlogRightSidebar />} />
+            <Route path="/blog-left-sidebar" element={<BlogLeftSidebar />} />
+            <Route path="/blog-full-width" element={<BlogFullWidth />} />
+            <Route path="/about" element={<Home />} />
+            <Route path="/coming-soon" element={<ComingSoon />} />
+            <Route path="/404" element={<NotFound />} />
+            <Route path="/faq" element={<Contact />} />
+            <Route path="/pricing" element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/admin" element={
+              <ProtectedRoute>
+                <ContactDetails />
+              </ProtectedRoute>
+            } />
+            <Route path="/login" element={<Login />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

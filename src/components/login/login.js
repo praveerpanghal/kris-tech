@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate  } from 'react-router-dom';
+import { useAuth } from '../../AuthContext';
 import './login.scss';
 
 const Login = () => {
@@ -7,6 +8,7 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate ();
+  const { login } = useAuth();
 
   const handleLogin = () => {
     // Example credentials
@@ -14,6 +16,7 @@ const Login = () => {
     const validPassword = 'admin';
 
     if (username === validUsername && password === validPassword) {
+        login();
         navigate('/admin');
     } else {
       setError('Invalid username or password');
