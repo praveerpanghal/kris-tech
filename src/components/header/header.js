@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container">
                 <Navbar expand="lg">
                     <Link className="navbar-brand" to="/home">
-                        <img src="images/kris-log-min1.png" alt="OVA" className="header-logo" />
+                        <img src="images/kris-log-min1.png" alt="OVA2 Consultants" className="header-logo" />
                     </Link>
                     <Navbar.Toggle aria-controls="navbar-nav" />
                     <Navbar.Collapse id="navbar-nav">
