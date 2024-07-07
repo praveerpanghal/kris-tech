@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5230/api/ContactUs';
+const API_URL = 'http://localhost:8081/api/ContactUs';
 
 export const getContacts = async() => {
     const response = await fetch(API_URL);

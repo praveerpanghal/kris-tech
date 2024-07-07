@@ -6,7 +6,7 @@ import "./plugins/magnific-popup/magnific-popup.css";
 import "./plugins/slick/slick.css";
 import "./scss/style.scss"
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 import Home from './components/home/home';
 import Header from './components/header/header';
@@ -51,6 +51,7 @@ function App() {
               </ProtectedRoute>
             } />
             <Route path="/login" element={<Login />} />
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer />
         </Router>
