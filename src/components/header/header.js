@@ -6,10 +6,11 @@ import * as constants from "../../constants/commonConstant";
 
 const Header = () => {
     return (
-        <header className="navigation">
+        <div className="ova2-header">
+        <header className="navigation p-0">
             <div className="container">
                 <Navbar expand="lg">
-                    <Link className="navbar-brand" to="/home">
+                    <Link className="navbar-brand text-left" to="/home">
                         <img src="images/ova2_logo.png" alt={constants.companyName} className="header-logo" />
                     </Link>
                     <Navbar.Toggle aria-controls="navbar-nav" />
@@ -35,6 +36,7 @@ const Header = () => {
                 </Navbar>
             </div>
         </header>
+        </div>
     );
 };
 
