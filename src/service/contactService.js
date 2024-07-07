@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8081/api/ContactUs';
+const API_URL = 'http://praveer-001-site5.ctempurl.com/api/ContactUs';
 
 export const getContacts = async() => {
     const response = await fetch(API_URL);
