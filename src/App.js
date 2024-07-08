@@ -19,6 +19,7 @@ import Projects from './components/projects/projects';
 import Login from './components/login/login';
 import { AuthProvider } from './AuthContext';
 import ProtectedRoute from './ProtectedRoute';
+import ScrollToTop from './components/home/scrollToTop/scrollToTop';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
+          <ScrollToTop/>
           <Footer />
         </Router>
       </AuthProvider>

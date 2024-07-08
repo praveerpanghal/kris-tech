@@ -1,6 +1,5 @@
 import React from 'react';
 import './service.scss'; // Ensure you have the SCSS file for styling
-import ScrollToTop from '../home/scrollToTop/scrollToTop';
 import { companyName } from "../../constants/commonConstant";
 
 const Service = () => {
@@ -174,7 +173,6 @@ const Service = () => {
           </div>
         </div>
       </section>
-      <ScrollToTop />
     </div>
   );
 };
