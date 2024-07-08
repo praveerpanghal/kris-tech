@@ -46,7 +46,7 @@ const Login = () => {
               {error && <p className="error">{error}</p>}
               <div className="block">
                 <div className="form-group">
-                  <input name="user_name" type="text" className="form-control" placeholder="User Name"
+                  <input name="user_name" type="text" className="form-control" placeholder="Email or Phone"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)} />
                 </div>
@@ -61,38 +61,7 @@ const Login = () => {
               {/* <button onClick={handleLogin}>Login</button> */}
             </div>
           </form>
-        </div>
-
-
-        {/* <section className="contact-form">
-        <div className="container">
-          <form className="row" id="contact-form">
-            <div className="col-md-6 col-sm-12">
-              <div className="block">
-                <div className="form-group">
-                  <input name="user_name" type="text" className="form-control" placeholder="Your Name" />
-                </div>
-                <div className="form-group">
-                  <input name="user_email" type="text" className="form-control" placeholder="Email Address" />
-                </div>
-                <div className="form-group">
-                  <input name="user_subject" type="text" className="form-control" placeholder="Subject" />
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-12">
-              <div className="block">
-                <div className="form-group-2">
-                  <textarea name="user_message" className="form-control" rows="4" placeholder="Your Message"></textarea>
-                </div>
-                <button className="btn btn-default" type="button">Send Message</button>
-              </div>
-            </div>
-            <div className="error" id="error">Sorry Msg does not sent</div>
-            <div className="success" id="success">Message Sent</div>
-          </form>
-        </div>
-      </section> */}
+        </div>      
       </section>
     </div>
   );
