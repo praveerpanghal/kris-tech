@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './projects.scss'; // Ensure you have the SCSS file for styling
-import ScrollToTop from '../home/scrollToTop/scrollToTop';
 
 const Projects = () => {
   const [filter, setFilter] = useState('all');
@@ -139,7 +138,6 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <ScrollToTop/>
     </div>
   );
 };
