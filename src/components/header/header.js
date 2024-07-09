@@ -34,7 +34,7 @@ const Header = () => {
                                     <Link className="nav-link" to="/contact" onClick={handleNavClick}>Contact</Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Link className="nav-link" to="/login" onClick={handleNavClick}>Admin</Link>
+                                    <Link className="nav-link" to="/login" onClick={handleNavClick}>Login</Link>
                                 </Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
