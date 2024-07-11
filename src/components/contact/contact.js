@@ -53,7 +53,7 @@ const Contact = () => {
                     <i className="ion-ios-location-outline"></i> Greater Noida, Uttar Pradesh, India
                   </li>
                   <li>
-                    <i className="ion-ios-email-outline"></i> Email: amit.chaudhary97@gmail.com
+                    <i className="ion-ios-email-outline"></i> Email: hr@ova2consultancy.com
                   </li>
                   <li>
                     <i className="ion-ios-telephone-outline"></i> Phone: +91-9350520148
